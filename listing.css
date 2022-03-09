@@ -1,0 +1,124 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+#header{
+    height: 75px;
+    width: 100%;
+    border:2px solid black;
+    background-color: #bf9255;
+}
+#icon{
+    float: left;
+    margin-left: 1%;
+    margin-top: 0%;
+}
+#social{
+    float: right;
+    margin-top: 1%;
+}
+.slogo{
+    height:50px;
+    width:50px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+/* Listing */
+#maindiv{
+    width: 100%;
+    display:inline-block;
+}
+#firstdiv{
+    width:15%;
+    height:428px;
+    border: 2px groove red;
+    margin-left: 10%;
+    margin-top: 0%;
+    float: left;
+}
+#firstdivhead{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+#seconddiv{
+    width:61%;
+    height: 1000px;
+    margin-right: 5%;
+    margin-top: 0%;
+    float: right;
+    margin-bottom: 2%;
+    overflow: scroll;
+}
+.mainlistdiv{
+    width:99%;
+    height:333px;
+    box-shadow: 20px 10px 20px gray;
+    margin-bottom: 30px;
+}
+.img{
+    width:30%;
+    height:333px;
+    float: left;
+}
+.headingtext{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.radio{
+    display: block;
+}
+.img>img{
+    height: 333px;
+    width :95%;
+    border-radius: 10px;
+}
+.restaurantname{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.restaurantdescrip{
+    margin-left: 5%;
+    font-size: 23px;
+}
+.costfortwoinres{
+    font-size: 20px;
+}
+p>img{
+    width: 90px;
+    height: 90px;
+}
+
+/* footer */
+#footer{
+    height: 221px;
+    width: 100%;
+    border:2px dotted black;
+    background-color: #bf9255;
+}
+#foottext{
+    text-align: center;
+    font-size: 35px;
+}
+.footerdiv{
+    height: 99px;
+    border-right: 2px solid brown;
+    display:inline-block;
+    width: 30%;
+}
+.noborder{
+    border: none;
+}
+.contactus{
+    text-align: center;
+    font-size: 20px;
+}
+.aboutus{
+    text-align: center;
+    font-size: 20px;
+}
